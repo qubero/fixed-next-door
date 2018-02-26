@@ -1,0 +1,182 @@
+@font-face {
+  font-family: 'Bad_Script';
+  src: url("fonts/Bad_Script.eot");
+  src: url("fonts/Bad_Script.eot") format("embedded-opentype"), url("fonts/Bad_Script.woff2") format("woff2"), url("fonts/Bad_Script.woff") format("woff"), url("fonts/Bad_Script.ttf") format("truetype"), url("fonts/Bad_Script.svg#Bad_Script") format("svg");
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url("fonts/Lobster.eot");
+  src: url("fonts/Lobster.eot") format("embedded-opentype"), url("fonts/Lobster.woff2") format("woff2"), url("fonts/Lobster.woff") format("woff"), url("fonts/Lobster.ttf") format("truetype"), url("fonts/Lobster.svg#Lobster") format("svg");
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+header {
+  font-family: 'Lobster';
+  height: auto;
+}
+
+header .service_name {
+  padding-top: 80px;
+}
+
+header .logo {
+  width: 180px;
+  height: 180px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+header .service_contacts {
+  padding-top: 95px;
+  text-align: right;
+}
+
+header .service_contacts a {
+  text-decoration: none;
+}
+
+#main {
+  background: url(../img/bg.jpg) no-repeat center center;
+  border-top: 3px solid #ff6666;
+  border-bottom: 3px solid #ff6666;
+}
+
+#main #myCarousel {
+  margin-top: 50px;
+}
+
+#main h1 {
+  font-family: 'Lobster';
+  padding-top: 100px;
+  color: #ff6666;
+}
+
+#main img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #ff6666;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+#main p {
+  padding: 15px;
+  margin-left: 100px;
+  align: justify;
+  text-indent: 1.5em;
+}
+
+#main .carousel-indicators {
+  position: static;
+  bottom: 250px;
+}
+
+#main .carousel-indicators .active {
+  border: 3px solid #ff6666;
+}
+
+#main .carousel-indicators li {
+  text-indent: 0;
+  font-weight: bolder;
+  font-family: 'Bad_Script';
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#main .carousel-inner {
+  margin-left: 50px;
+  padding-bottom: 100px;
+}
+
+#main .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#ff6666' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+#main .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#ff6666' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+#advantages {
+  font-family: 'Bad_Script';
+  margin-top: 30px;
+}
+
+#advantages h2 {
+  font-weight: bold;
+  color: #000;
+}
+
+#advantages ol li {
+  font-size: 20px;
+}
+
+#advantages h2 span {
+  text-transform: uppercase;
+  color: #ff6666;
+}
+
+#footer {
+  margin: 50px 0 50px 0px;
+  font-family: 'Bad_Script';
+}
+
+#footer h3 a {
+  text-decoration: none;
+  font-family: 'Lobster';
+}
+
+#footer h2 :first-child {
+  font-family: 'Lobster';
+  color: #000;
+}
+
+#footer h2 span {
+  color: #ff6666;
+  font-family: 'Lobster';
+  text-transform: uppercase;
+}
+
+#footer .service_contacts {
+  text-align: right;
+  margin: auto;
+}
+
+#footer .callback_request {
+  margin: auto;
+}
+
+#footer .modal_button {
+  font-family: 'Lobster';
+  padding: 10px 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  background: #ff6666;
+  border: none;
+  cursor: pointer;
+}
+
+#footer .modal_button:hover {
+  background: #ffa51c;
+}
+/*# sourceMappingURL=style.css.map */
